@@ -22,6 +22,9 @@ body {
   display: grid;
   grid-template-columns: 1fr 120px minmax(300px, 800px) 1fr;
 }
+.menu{
+  grid-column: 3/5
+}
 
 .menu ul{
     display: flex;
@@ -50,6 +53,15 @@ body {
   padding: 10px;
   display: grid;
   grid-template-columns: 90px 300px 1fr;
+
+}
+
+.titulo{
+  font-family: geogia;
+  font-size:   1;
+  line-height: 400;
+  margin-bottom: 1rem;
+  grid-column: 1/4;
 
 }
 
