@@ -68,6 +68,10 @@ body {
 
 }
 
+.animais h2::before{ 
+    content: ''
+}
+
 
 
 
