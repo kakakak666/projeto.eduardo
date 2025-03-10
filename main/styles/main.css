@@ -127,7 +127,7 @@ margin-bottom: 3rem;
 font-family: monospace;
 font-weight: 500;
 margin-top: 2rem;
-background-color: red;
+
 margin-bottom:.5rem;
 color: #E54;
 
@@ -162,4 +162,10 @@ background: #fb5;
 .dados li{
   margin-bottom: 1rem;
   font-family: Helvetica,arial;
+}
+
+dados li::before{
+  content: '';
+  display: inline-block;
+  width:20px
 }
