@@ -18,12 +18,13 @@ margin-bottom: 1rem;
 
 .animais-lista{
 height: 370px;
+background-color: red;
 overflow-y: scroll;
 grid-template-columns: 2;
 
 }
 
-#animais-lista li{
+.animais-lista li{
 cursor: pointer;
 
 }
