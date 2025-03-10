@@ -112,12 +112,12 @@ background: #faf6ed;
 
 }
 
-.animais-descricao{
+.animais-descriscao{
 grid-column: 3;
 
 }
 
-.animais-descricao section{
+.animais-descriscao section{
 margin-bottom: 3rem;
 
 }
@@ -132,7 +132,7 @@ color: #E54;
 
 }
 
-#faq-lista dt::before {
+.faq-lista dt::before {
 content: '';
 display: inline-block;
 width: 20px;
