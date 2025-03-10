@@ -122,7 +122,7 @@ margin-bottom: 3rem;
 
 }
 
-.faq-lista dl{
+.faq-lista dt{
 font-family: monospace;
 font-weight: 500;
 margin-top: 2rem;
@@ -143,3 +143,22 @@ background: #fb5;
 
 
 
+.faq-lista dd{
+  font-family: Helvetica,arial;
+  margin-bottom: .5rem;
+  margin-left: 30px;
+}
+
+.mapa{
+  grid-column: 2;
+}
+
+.dados{
+  grid-column: 3;
+
+}
+
+.dados li{
+  margin-bottom: 1rem;
+  font-family: Helvetica,arial;
+}
