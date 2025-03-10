@@ -20,7 +20,7 @@ margin-bottom: 1rem;
 height: 370px;
 background-color: red;
 overflow-y: scroll;
-grid-template-columns: 2;
+grid-columns: 2;
 
 }
 
@@ -112,6 +112,13 @@ border-right: 4px solid #faf6ed;
 background: #faf6ed;
 
 }
+
+.animais-lista::-webkit-scrollbar-thumb {
+  background: #FB5;
+  border-left: 4px solid #faf6ed;
+  border-right: 4px solid #faf6ed;
+} 
+
 
 .animais-descriscao{
 grid-column: 3;
