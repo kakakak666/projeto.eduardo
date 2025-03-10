@@ -102,7 +102,7 @@ width: 18px;
 }
 
 .animais-lista::-webkit-scrollbar-thumb{
-background: #fb55fb;
+background: #fb5;
 border-left: 4px solid #faf6ed;
 border-right: 4px solid #faf6ed;
 }
@@ -122,10 +122,11 @@ margin-bottom: 3rem;
 
 }
 
-#faq-lista dt{
+.faq-lista dl{
 font-family: monospace;
 font-weight: 500;
 margin-top: 2rem;
+background-color: red;
 margin-bottom:.5rem;
 color: #E54;
 
